@@ -1,5 +1,5 @@
 <h1 align="center">
-Jogo Termo </h1>
+Jogo de palavras Termo </h1>
 
 <h3>
 Descrição do projeto:
@@ -27,8 +27,15 @@ Para iniciar o sistema você deve estar na pasta "src" e digitar o comando abaix
     Modo de uso:
 </h3>
 
-Após clicar em enter é exibido para o usuario um menu com as possiveis opções
-Basta escolher a opção e digita-la no campo que o mesmo disponibiliza.
+Ao iniciar o jogo, o sistema irá gerar uma palavra aleatória, você deve digitar a palavra que acredita ser a palavra secreta gerada pelo sistema no total de 5 tentativas.
+Letras em verde: letras na posição correta
+Letras em amarelo: estão na posição errada
+Letras brancas: não há essa letra na palavra
+Regras:
+A palavra deve conter obrigatoriamente 5 letras.
+Não são permitdos nomes próprios, números ou palavras com acentos.
+
+
 
 <br>
 <h2>
