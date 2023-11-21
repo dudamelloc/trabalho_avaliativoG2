@@ -15,7 +15,13 @@ Arquiterura do sistema:
 
 
 O sistema é subdividido em 4 módulos, sendo um deles o módulo principal chamado main e outros 3 são módulos do programa, divididos cada um em um grupo de funções organizadas.
-Também temos dois arquivos, um com uma lista de palavras a serem utilizadas no programa e outro com palavras que já foram utilizadas 
+Também temos dois arquivos, um com uma lista de palavras a serem utilizadas no programa e outro com palavras que já foram utilizadas.
+
+<h3>
+  Funcionalidades do programa:
+</h3> 
+
+
 
 <h3>
   Como iniciar o sistema:
@@ -37,6 +43,13 @@ Letras brancas: não há essa letra na palavra
 Regras:
 A palavra deve conter obrigatoriamente 5 letras.
 Não são permitdos nomes próprios, números, espaço entre as palavras ou palavras com acentos.
+
+<h3>
+    Tecnologias utilizadas:
+</h3>
+https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white
+
+
 
 
 
