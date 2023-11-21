@@ -21,19 +21,19 @@ Também temos dois arquivos, um com uma lista de palavras a serem utilizadas no 
   Como iniciar o sistema:
 </h3>  
 
-Para iniciar o sistema você deve estar na pasta "src" e digitar o comando abaixo, após isso o código já entrará em funcionamento exibindo no terminal a mensagem "Precione enter para continuar..."
-
+Para começar você pode abrir o diretório do projeto no terminal e rodar o comando ```ssh python main.py ```
 <h3>
     Modo de uso:
 </h3>
 
-Ao iniciar o jogo, o sistema irá gerar uma palavra aleatória, você deve digitar a palavra que acredita ser a palavra secreta gerada pelo sistema no total de 5 tentativas.
+Ao iniciar o jogo, o sistema irá gerar uma palavra aleatória, você deve digitar a palavra que acredita ser a palavra secreta gerada pelo sistema. 
+Você tem 5 tentativas
 Letras em verde: letras na posição correta
 Letras em amarelo: estão na posição errada
 Letras brancas: não há essa letra na palavra
 Regras:
 A palavra deve conter obrigatoriamente 5 letras.
-Não são permitdos nomes próprios, números ou palavras com acentos.
+Não são permitdos nomes próprios, números, espaço entre as palavras ou palavras com acentos.
 
 
 
