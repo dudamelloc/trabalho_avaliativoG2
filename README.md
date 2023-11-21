@@ -21,7 +21,10 @@ Também temos dois arquivos, um com uma lista de palavras a serem utilizadas no 
   Como iniciar o sistema:
 </h3>  
 
-Para começar você pode abrir o diretório do projeto no terminal e rodar o comando ```ssh python main.py ```
+Para começar você pode abrir o diretório do projeto no terminal e rodar o comando 
+```ssh
+python main.py
+```
 <h3>
     Modo de uso:
 </h3>
