@@ -18,8 +18,12 @@ O sistema é subdividido em 4 módulos, sendo um deles o módulo principal chama
 Também temos dois arquivos, um com uma lista de palavras a serem utilizadas no programa e outro com palavras que já foram utilizadas.
 
 <h3>
-  Funcionalidades do programa:
+Principais funcionalidades:
 </h3> 
+
+- teste
+
+
 
 
 
@@ -49,7 +53,6 @@ Não são permitdos nomes próprios, números, espaço entre as palavras ou pala
 </h3>
 
 <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt="Phyton">
-
 
 
 <br>
