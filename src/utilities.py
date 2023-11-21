@@ -118,9 +118,8 @@ def valided_input_int(message):
              try: 
                 value = int(value) 
              except ValueError: 
-                clear()
                 print("Opção inválida, tente novamente...") 
-                time_sleep(3) 
+                time_sleep(1) 
                 continue 
              break
     return int(value)
