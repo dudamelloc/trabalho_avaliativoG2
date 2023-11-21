@@ -13,19 +13,18 @@ Esse projeto é um trabalho avaliativo sobre o jogo de palavras Termo, da discip
 Arquiterura do sistema:
 </h3>
 
-
 O sistema é subdividido em 4 módulos, sendo um deles o módulo principal chamado main e outros 3 são módulos do programa, divididos cada um em um grupo de funções organizadas.
-Também temos dois arquivos, um com uma lista de palavras a serem utilizadas no programa e outro com palavras que já foram utilizadas.
+Também há dois arquivos, um com uma lista de palavras a serem utilizadas no programa e outro com palavras que já foram utilizadas.
 
 <h3>
 Principais funcionalidades:
 </h3> 
 
-- teste
-
-
-
-
+- Sorteio de palavras aleatórias
+- Histórico com as palavras já sorteadas
+- Validações para palavras "inválidas"
+- Limpar histórico de palavras
+- Cores para indentificar a palavra sorteada
 
 <h3>
   Como iniciar o sistema:
