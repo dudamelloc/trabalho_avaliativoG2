@@ -28,7 +28,7 @@ def start (list_of_words):
             service.add_word_in_file(secret_word)
 
         if show_menu() == False:
-            break
+            return True
 
     return False
 
