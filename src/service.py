@@ -80,17 +80,19 @@ def clean_file_historic (): # função pra limpar o used words
 def show_words_drawn():
     file = open ("used_words.txt", "r")
     
-    print(utilities.comand_line_colors.colour("\t As palavras sorteadas são ", utilities.comand_line_colors.MAGENTA))
+    print(utilities.comand_line_colors.colour("\t As palavras sorteadas são: ", utilities.comand_line_colors.MAGENTA))
+    counter = 0
     for linha in file:
-       
+        counter += 1
         palavra = linha.strip() # Remova os espaços em branco no início e no fim da linha
        
         print(f"\t {palavra}")  # Imprima a palavra
      
     lines = file.readlines()
 
-    if len(lines) < 0: #le a linha do arquivo used words
-        print ("Você ainda não possui palavras salvas.")
+    if counter == 0:
+        print (utilities.comand_line_colors.colour("\t Você ainda não possui palavras salvas. ", utilities.comand_line_colors.RED))
+        print("\n\n")
         return False
     
     file.close()
