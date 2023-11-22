@@ -6,7 +6,7 @@ def input_guess(message):
     guess = utilities.validate_number_letters_and_letters(message, 5)
     
     utilities.clean_and_back()
-    return guess
+    return guess.upper()
 
 def check_word(guess, secret_word):
     letters_used = [] 
