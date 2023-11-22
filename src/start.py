@@ -3,16 +3,20 @@ import utilities
 import show_command_line as menus
 
 def start (list_of_words):
-    menus.home_menu()
-    option  = utilities.valided_input_int(utilities.comand_line_colors.colour("\t Digite sua opção: ", utilities.comand_line_colors.BLUE))
+    while True:
+        menus.home_menu()
+        option  = utilities.valided_input_int(utilities.comand_line_colors.colour("\t Digite sua opção: ", utilities.comand_line_colors.BLUE))
 
-    if option == 2:
-        menus.show()
-        input()
-        start (list_of_words)
+        if option == 1:
+            break
 
-    elif option == 3:
-        return False
+        elif option == 2:
+            menus.show()
+            input()
+            continue
+
+        elif option == 3:
+            return False
     
     while True:  
         while True:
@@ -69,22 +73,27 @@ def start_round(secret_word):
     return False
 
 def show_menu():
-    menus.menu()
-    option = utilities.valided_input_int(utilities.comand_line_colors.colour("\t Digite sua opção: ", utilities.comand_line_colors.BLUE))
+    while True:
+        menus.menu()
+        option = utilities.valided_input_int(utilities.comand_line_colors.colour("\t Digite sua opção: ", utilities.comand_line_colors.BLUE))
 
-    if option == 2:
-        menus.show()
-        input()
-        show_menu()
-            
-    if option == 3:
-        return False
-    
-    elif option ==4:
-        service.show_words_drawn()
-        show_menu()
+        if option == 1:
+            break
+
+        elif option == 2:
+            menus.show()
+            input()
+            continue
+                
+        if option == 3:
+            return False
+        
+        elif option ==4:
+            service.show_words_drawn()
+            continue
 
 
-    elif option ==5:
-        service.clean_file_historic ()
-        show_menu()
+        elif option ==5:
+            service.clean_file_historic ()
+            continue
+    return True
