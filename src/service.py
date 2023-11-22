@@ -41,7 +41,7 @@ def get_secret_word(list_of_words): #Remova espaços em branco e quebras de linh
     
     secret_word = random.choice(list_of_words).strip() # gera uma palavra aleatória e guarda na secret word
      
-    return secret_word
+    return secret_word.upper()
  
 
 def validation_used_words (list_of_type_words, type_word): # função para adicionar a secret word no arquivo
