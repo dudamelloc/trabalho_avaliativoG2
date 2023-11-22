@@ -56,14 +56,13 @@ def start_round(secret_word):
         result, letters = service.check_word(word, secret_word)
 
         if result is True:
-            print(f"{letters[0]}|{letters[1]}|{letters[2]}|{letters[3]}|{letters[4]}")
-            print("\033[38;5;206m🎉Parabéns você acertou a palavra!!🎉\033[0m")
-            print(f"Palavra secreta: {secret_word}")
+            print(f"\t {letters[0]}|{letters[1]}|{letters[2]}|{letters[3]}|{letters[4]}")
+            print("\t \033[38;5;206m🎉Parabéns você acertou a palavra!!🎉\033[0m")
             list_type_words.clear()
             return True
         
         else:
-            print(f"{letters[0]}|{letters[1]}|{letters[2]}|{letters[3]}|{letters[4]}")
+            print(f"\t {letters[0]}|{letters[1]}|{letters[2]}|{letters[3]}|{letters[4]}")
 
        
     list_type_words.clear()
