@@ -59,7 +59,7 @@ Não são permitdos nomes próprios, números, espaço entre as palavras ou pala
 
 [link do vídeo][1]
 
-[1]: https://www.bing.com
+[1]: https://www.capcut.com/view/7304542396392407557?workspaceId=7304537845895675909 
 
 <br>
 <h2>
