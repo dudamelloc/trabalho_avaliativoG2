@@ -3,11 +3,9 @@ Jogo de palavras Termo </h1>
 
 <h3>
 Descrição do projeto:
-</h3> 
-
+</h3>
 
 Esse projeto é um trabalho avaliativo sobre o jogo de palavras Termo, da disciplina de Laboratório de Algoritmos II do curso de Sistemas de Informação.
-
 
 <h3>
 Arquiterura do sistema:
@@ -18,7 +16,7 @@ Também há dois arquivos, um com uma lista de palavras a serem utilizadas no pr
 
 <h3>
 Principais funcionalidades:
-</h3> 
+</h3>
 
 - Sorteio de palavras aleatórias
 - Histórico com as palavras já sorteadas
@@ -28,17 +26,19 @@ Principais funcionalidades:
 
 <h3>
   Como iniciar o sistema:
-</h3>  
+</h3>
 
-Para começar você pode abrir o diretório do projeto no terminal e na pasta /src rodar o comando 
+Para começar você pode abrir o diretório do projeto no terminal e na pasta /src rodar o comando
+
 ```ssh
 python main.py
 ```
+
 <h3>
     Modo de uso:
 </h3>
 
-Ao iniciar o jogo, o sistema irá gerar uma palavra aleatória, você deve digitar a palavra que acredita ser a palavra secreta gerada pelo sistema. 
+Ao iniciar o jogo, o sistema irá gerar uma palavra aleatória, você deve digitar a palavra que acredita ser a palavra secreta gerada pelo sistema.
 Você tem 5 tentativas
 Letras em verde: letras na posição correta
 Letras em amarelo: estão na posição errada
@@ -53,20 +53,26 @@ Não são permitdos nomes próprios, números, espaço entre as palavras ou pala
 
 <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt="Phyton">
 
+<h3>
+     Video Explicando:
+</h3>
+
+[link do vídeo][1]
+
+[1]: https://www.bing.com
 
 <br>
 <h2>
      Desenvolvedores:
 </h2>
 <br>
- 
 
 Maria Edurada
 
 [![linkdin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maria-eduarda-mello-a218b4268/)
-[![Whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+5555992185151)
+[![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/eduardamello___/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==)
 
 Thevis Cardoso
 
 [![linkdin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thevis-cardoso)
-[![Whatsapp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+5555996351078)
+[![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/cardoso_ts07/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==)
